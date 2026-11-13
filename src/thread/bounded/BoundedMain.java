@@ -10,7 +10,7 @@ public class BoundedMain {
 
     public static void main(String[] args) {
         // 1. BoundedQueue 선택
-        BoundedQueue queue = new BoundedQueueV3(2);
+        BoundedQueue queue = new BoundedQueueV4(2);
 
         producerFirst(queue); // 생산자 먼저 실행
         //consumerFirst(queue); // 소비자 먼저 실행
