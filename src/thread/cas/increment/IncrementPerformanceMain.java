@@ -20,6 +20,4 @@ public class IncrementPerformanceMain {
         long endMs = System.currentTimeMillis();
         System.out.println(incrementInteger.getClass().getSimpleName() + " : ms=" + (endMs - startMs));
     }
-
-
 }
