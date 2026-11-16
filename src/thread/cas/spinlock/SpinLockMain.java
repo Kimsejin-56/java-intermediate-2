@@ -4,7 +4,7 @@ import static thread.util.MyLogger.log;
 
 public class SpinLockMain {
     public static void main(String[] args) {
-        SpinLockBad spinLockBad = new SpinLockBad();
+        SpinLock spinLockBad = new SpinLock();
 
         Runnable runnable = new Runnable() {
             @Override
