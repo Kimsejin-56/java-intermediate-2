@@ -21,8 +21,9 @@ public class BasicList implements SimpleList {
 
     @Override
     public void add(Object o) {
-        elementData[size++] = o;
+        elementData[size] = o;
         sleep(100); // 멀티스레드 문제를 쉽게 확인하는 코드
+        size++;
     }
 
     @Override
